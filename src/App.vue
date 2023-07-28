@@ -55,6 +55,7 @@ const changePattern = (sofa: number, index: number) => {
 
 <template>
   <main>
+    <img src="@/assets/objects/table.png" class="table" alt="table">
     <ControlPanel :patterns="patterns" @changeColor="changeColor" @changePattern="changePattern"/>
     <CurtainLeft :color="active_curtain_color" :pattern="active_curtain_pattern"/>
     <CurtainRight :color="active_curtain_color" :pattern="active_curtain_pattern"/>
